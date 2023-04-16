@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.th{
+    font-size: 30px;
+    
+}
+
+/* product list */
+.pr-list{
+    border-bottom: 3px solid red;
+}
+
+.text-end{
+    display: flex;
+    padding:1rem;
+    justify-content: flex-end;
+}
+.icon-product:hover .icon-product1{
+    background-color: #dc3545;
+    
+}
+.icon-product:hover i{
+    color: #fff;
+}
+
+.icon-product h6:hover{
+    color: #ffb416;
+}
+.home-product-item_sale-off {
+    background-color: #ffd004;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    margin-left: 15px;
+}
+.home-product-item_sale-off::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    border-width: 0 20px 20px;
+    
+    border-style: solid;
+    border-color: transparent #ffd004 transparent #ffd004;
+}
+.home-product-item_sele-off-percent{
+    color: #000;
+    font-weight: 600;
+    font-size: 0.90rem;
+    position: relative;
+}
+.product3{
+    position: relative;
+    border: 3px solid red;
+    /* background-image: url(	https://1.bp.blogspot.com/-mk6HjwHScn4/YPDvm96YWMI…xkIAV90zcNj0001wj8xST2KqACLcBGAsYHQ/s0/mblike.png); */
+}
+.fw-bold{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+
+/* footer */
+.myfooter ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.myfooter ul>li>a{
+    text-decoration: none;
+   
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
