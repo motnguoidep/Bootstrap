@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container p{
+    font-size: 14px;
+}
+.headerr{
+    margin-top: -50px;
+}
+.navbar-brand img{
+    color: #000;
+    width: 115px;
+    height: 60px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-weight: 400;
+}
+.navbar-brand:hover{
+    color: #000;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #707070;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link:hover{
+    color: #000;
+}
+
+
+.main2{
+    background: url(https://fastcoding.jp/sample/html002/img/top/ttl_keyvisual.png)no-repeat;
+    background-size: cover;
+    height: 248px;
+    width: 735px;
+    background-position: 50% 50%;
+}
+
+.main{
+    background: url(	https://fastcoding.jp/sample/html002/img/top/bg_keyvisual.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+   font-size: 70px;
+   font-weight: 700;
+   color: #000;
+   margin-top: 30px;
+   font-family: sans-serif;
+}
+.btn1{
+    height: 45px;
+    width: 30%;
+    /* border: none; */
+    outline: none;
+    background-color: #000;
+    /* font-weight: 700; */
+    color: #fff;
+}
+
+.btn1:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.img_th{
+    padding-left: 4rem;
+    padding-top: 6rem;
+}
+/* about */
+.main22{
+    background: url(https://fastcoding.jp/sample/html002/img/top/bg_best_seller.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.pr{
+    background: #fbfbfb;
+}
+.brand_p{
+    font-size: 14px;
+    color: #c5c5c5;
+    font-weight: 600;
+}
+.brand_h1{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.h5_about{
+   font-weight: 600;
+   font-size: 1.2rem;
+}
+
+.img_product:hover{
+    box-shadow: -1px -1px 24px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 24px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 24px -3px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.pr-list{
+    border: 1px solid #c1c1c1;
+    width: 6rem;
+}
